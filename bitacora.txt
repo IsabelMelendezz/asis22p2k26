@@ -1,0 +1,35 @@
+commit 5e31eb7d8ce32c7a76d735d01e908919432f1b31
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Sep 29 10:23:38 2026 -0600
+
+    Subiendo mis reportes y ayudas finales
+
+commit 3d2985b527d160217cbe9619364176b75907280a
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Sep 29 09:50:26 2026 -0600
+
+    Agregando las bibliotecas de clase
+
+commit 0340687cdba30c1a9702d90ac983efb6a1cc1ae7
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Sep 29 08:54:13 2026 -0600
+
+    Agregando conexion del examen
+
+commit 6241b9f048340e0fe95837f31dc34e6e30f26d0f
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Sep 29 08:44:53 2026 -0600
+
+    Subiendo la estructura principal del proyecto
+
+commit 09c914bc936a71f534d186db4c688e073b58ecb1
+Author: Esduardo Del Aguila <daguilae@yahoo.com>
+Date:   Mon Sep 28 18:43:48 2026 -0600
+
+    Inicial proyecto
+
+commit f414c498afdbaf970217efd1012204fbe9379647
+Author: edelaguila <54811781+edelaguila@users.noreply.github.com>
+Date:   Mon Sep 28 18:41:50 2026 -0600
+
+    Initial commit
