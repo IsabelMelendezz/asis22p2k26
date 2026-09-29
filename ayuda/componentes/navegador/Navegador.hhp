@@ -1,0 +1,13 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Navegador.chm
+Contents file=..\seguridad\SeguridadAyudas\Table of Contents.hhc
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+
+[FILES]
+..\seguridad\SeguridadAyudas\Aplicaciones_Seguridad.html
+
+[INFOTYPES]
+
