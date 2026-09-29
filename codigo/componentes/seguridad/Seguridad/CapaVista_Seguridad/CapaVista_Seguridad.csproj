@@ -185,6 +185,12 @@
     <Compile Include="frmReportes\FrmReporteMantenimientoUsuario.Designer.cs">
       <DependentUpon>FrmReporteMantenimientoUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmReportes\FrmReporteTipoPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportes\FrmReporteTipoPuesto.Designer.cs">
+      <DependentUpon>FrmReporteTipoPuesto.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReportes\FrmReporteVideo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,6 +287,9 @@
     <EmbeddedResource Include="frmReportes\FrmReporteMantenimientoUsuario.resx">
       <DependentUpon>FrmReporteMantenimientoUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmReportes\FrmReporteTipoPuesto.resx">
+      <DependentUpon>FrmReporteTipoPuesto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReportes\FrmReporteVideo.resx">
       <DependentUpon>FrmReporteVideo.cs</DependentUpon>
     </EmbeddedResource>
@@ -302,6 +311,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\ReporteEx.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteTipoPuesto.rdlc" />
     <EmbeddedResource Include="Reportes\RpReporteAsignacionAplicacionUsuario.rdlc" />
     <EmbeddedResource Include="Reportes\RpReporteBitacora.rdlc" />
     <EmbeddedResource Include="Reportes\RpReporteMantenimientoEmpleado.rdlc" />
@@ -329,6 +339,7 @@
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Correo.ClsPlantillaCorreoRecuperacion.datasource" />
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Modelos_de_controladores.ClsModeloAsigUsuPerf.datasource" />
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Modelos_de_controladores.ClsModeloMantenimientoApp.datasource" />
+    <None Include="Properties\DataSources\CapaControlador_Seguridad.Modelos_de_controladores.ClsModeloTipoPuesto.datasource" />
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Modelos_de_controladores.ClsModeloVideo.datasource" />
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Objetos_de_valor.ClsPermisoAplicacion.datasource" />
     <None Include="Properties\DataSources\CapaControlador_Seguridad.Objetos_de_valor.ClsRolInfo.datasource" />

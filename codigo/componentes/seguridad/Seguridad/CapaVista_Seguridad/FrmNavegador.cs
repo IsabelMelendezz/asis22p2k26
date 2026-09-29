@@ -16,7 +16,7 @@ namespace CapaVista_Seguridad
         public FrmNavegador()
         {
             InitializeComponent();
-            navegador1.NavegadorMetConfigurar("tipo_puesto", 4, 17);
+            navegador1.NavegadorMetConfigurar("tipo_puesto", 4, 18);
         }
 
         private void navegador1_Load(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace CapaVista_Seguridad
 
         private void SeguridadbtnReporte_Click(object sender, EventArgs e)
         {
-            FrmReporteVideo reporte = new FrmReporteVideo();
+            FrmReporteTipoPuesto reporte = new FrmReporteTipoPuesto();
             reporte.Show();
         }
 

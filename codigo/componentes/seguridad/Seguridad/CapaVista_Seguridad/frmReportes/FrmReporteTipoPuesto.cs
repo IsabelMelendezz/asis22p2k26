@@ -12,25 +12,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace CapaVista_Seguridad.frmReportes
 {
-    public partial class FrmReporteAsigAppPerf : Form
+    public partial class FrmReporteTipoPuesto : Form
     {
+        private ClsModeloTipoPuesto TipoPuesto = new ClsModeloTipoPuesto();
 
-        private ClsModeloAsigAppPerf AsigAppPerf = new ClsModeloAsigAppPerf();
-        public FrmReporteAsigAppPerf()
+        public FrmReporteTipoPuesto()
         {
             InitializeComponent();
         }
 
-        private void FrmReporteAsigAppPerf_Load(object sender, EventArgs e)
+        private void FrmReporteTipoPuesto_Load(object sender, EventArgs e)
         {
-            ReportDataSource reportDataSource = new ReportDataSource("DsAsigAppPerf", AsigAppPerf.SeguridadMetObtenerTodos());
-            reportViewer1.LocalReport.ReportEmbeddedResource = "CapaVista_Seguridad.Reportes.RpReporteAsigAppPerf.rdlc";
+            ReportDataSource reportDataSource = new ReportDataSource("DsTipoPuesto", TipoPuesto.TipoPuestoMetObtenerParaReporte());
+            reportViewer1.LocalReport.ReportEmbeddedResource = "CapaVista_Seguridad.Reportes.ReporteTipoPuesto.rdlc";
             reportViewer1.LocalReport.DataSources.Clear();
             reportViewer1.LocalReport.DataSources.Add(reportDataSource);
             this.reportViewer1.RefreshReport();
         }
     }
 }
-
