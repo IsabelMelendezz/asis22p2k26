@@ -44,6 +44,7 @@
     <Compile Include="Contratos\IRepositorioAsignacionPerfiles.cs" />
     <Compile Include="Contratos\IRepositorioBitacora.cs" />
     <Compile Include="Contratos\IRepositorioRecuperacionContrasena.cs" />
+    <Compile Include="Contratos\IrepositorioTipoPuesto.cs" />
     <Compile Include="Contratos\IRepositorioVideo.cs" />
     <Compile Include="Entidades\ClsAsigAppUsuario.cs" />
     <Compile Include="Contratos\IRepositorioAsigAppPerf.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Entidades\ClsModulo.cs" />
     <Compile Include="Entidades\ClsRecuperacionContrasena.cs" />
     <Compile Include="Entidades\ClsRoles.cs" />
+    <Compile Include="Entidades\ClsTipoPuesto.cs" />
     <Compile Include="Entidades\ClsUsuarios.cs" />
     <Compile Include="Entidades\ClsVideo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Repositorios\ClsRepositorioModulo.cs" />
     <Compile Include="Repositorios\ClsRepositorioRecuperacionContrasena.cs" />
     <Compile Include="Repositorios\ClsRepositorioRoles.cs" />
+    <Compile Include="Repositorios\ClsRepositorioTipoPuesto.cs" />
     <Compile Include="Repositorios\ClsRepositorioUsuarios.cs" />
     <Compile Include="Repositorios\ClsRepositorioVideo.cs" />
     <Compile Include="Repositorios\ClsSentencias.cs" />

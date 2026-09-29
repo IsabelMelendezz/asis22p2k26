@@ -16,7 +16,7 @@ namespace CapaVista_Seguridad
         public FrmNavegador()
         {
             InitializeComponent();
-            navegador1.NavegadorMetConfigurar("video", 4, 17);
+            navegador1.NavegadorMetConfigurar("tipo_puesto", 4, 17);
         }
 
         private void navegador1_Load(object sender, EventArgs e)

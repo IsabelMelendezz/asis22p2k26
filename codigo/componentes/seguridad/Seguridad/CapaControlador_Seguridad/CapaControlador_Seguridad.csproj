@@ -90,6 +90,7 @@
     <Compile Include="Modelos de controladores\ClsModeloModulo.cs" />
     <Compile Include="Modelos de controladores\ClsModeloRoles.cs" />
     <Compile Include="Modelos de controladores\ClsModeloSolicitarCodigo.cs" />
+    <Compile Include="Modelos de controladores\ClsModeloTipoPuesto.cs" />
     <Compile Include="Modelos de controladores\ClsModeloUsuario.cs" />
     <Compile Include="Modelos de controladores\ClsModeloVideo.cs" />
     <Compile Include="Objetos de valor\ClsEstadoEntidadValor.cs" />
